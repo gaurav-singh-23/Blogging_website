@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="select.css">
+    <title>Select Box</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Proceed to Payment</h2>
+        <div class="select-box">
+            <label for="select-option">Select NGO</label>
+            <select id="select-option" name="select NGO">
+                <option value="option1">uddesya</option>
+                <option value="option2">PM care</option>
+                <option value="option3">Rahat</option>
+            </select>
+        </div>
+        <div class="box">
+            <form class="name-box">
+                <label for="Web name">Company name</label>
+                <input type="text" id="company-name" placeholder="lauda" value="Company Name" required>
+            </form>
+        </div>
+        <button>Pay</button>
+    </div>
+
+    <script>
+        document.getElementById('company-name').value = 'company name';
+    </script>
+</body>
+</html>
+
